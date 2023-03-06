@@ -89,10 +89,10 @@ const App = () => {
         }
         )
         }
+      </div>
         <div class="footer">
           <p>Made With <i class="fa-regular fa-heart"></i> by Aniruddh Vaish</p>
         </div>
-      </div>
     </>
   )
 }

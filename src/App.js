@@ -68,13 +68,12 @@ const App = () => {
               <input type="password" name="password" id="Password" value={rgform.password}
                 onChange={changing} autoComplete="off" required
               />
+              <i className="far fa-eye" id="togglePassword" style={{ marginLeft: "-30px", cursor: "pointer", backgroundColor: "transparent" }}></i>
             </div>
             <button type="submit">Submit</button>
           </div>
         </form>
-        {/* <h3>
-          hello world
-        </h3> */}
+
         {/* map method is used here to destructure the array of objects. */}
         {Record.map((e) => {
           return (
@@ -90,8 +89,10 @@ const App = () => {
         }
         )
         }
+        <div class="footer">
+          <p>Made With <i class="fa-regular fa-heart"></i> by Aniruddh Vaish</p>
+        </div>
       </div>
-
     </>
   )
 }
